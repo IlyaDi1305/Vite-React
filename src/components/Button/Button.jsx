@@ -1,13 +1,11 @@
 import './Button.css'
 
-export default function Button({ children, onClick, isActive }) {
-    // let classes = 'button'
-    // if (isActive) classes += ' active'
+export default function Button({children, onClick, isActive}) {
 
     return (
         <button
-        className={isActive ? 'button active' : 'button'}
-        onClick={onClick}>
+            className={isActive ? 'button active' : 'button'}
+            onClick={onClick}>
             {children}
         </button>
     )
