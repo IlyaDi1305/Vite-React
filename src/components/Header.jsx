@@ -11,7 +11,7 @@ export default function Header() {
             <img src={logo} alt="logo"/>
             {/*<h3>My site</h3>*/}
 
-            <span>Time: {now.toLocaleTimeString()}</span>
+            <span>Время сейчас: {now.toLocaleTimeString()}</span>
         </header>
     )
 }
