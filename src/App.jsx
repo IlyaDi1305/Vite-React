@@ -19,7 +19,6 @@ export default function App() {
                     <TeachingSection/>
                     <AdviceSection/>
                 </>)}
-
                 {tab === 'feedback' && <FeedbackSection/>}
             </main>
         </>
