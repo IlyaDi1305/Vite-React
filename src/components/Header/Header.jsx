@@ -1,6 +1,5 @@
 import logo from '/avatar.png'
 import {useState} from "react";
-import './Header.css'
 import {styled} from "styled-components";
 
 const HeaderContainer = styled.header`
@@ -10,7 +9,7 @@ const HeaderContainer = styled.header`
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    background: #fafafa;
+    background: #3f3f3f;
 `
 
 const LogoStyle = styled.img`

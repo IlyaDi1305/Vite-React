@@ -5,6 +5,7 @@ import IntroSection from "./components/IntroSection.jsx";
 import TabsSection from "./components/TabsSection.jsx";
 import FeedbackSection from "./components/FeedbackSection.jsx";
 import {useState} from "react";
+import Footer from "./components/Footer/Footer.jsx";
 
 export default function App() {
     const [tab, setTab] = useState('main')
@@ -21,6 +22,7 @@ export default function App() {
                 </>)}
                 {tab === 'feedback' && <FeedbackSection/>}
             </main>
+            <Footer/>
         </>
     )
 }

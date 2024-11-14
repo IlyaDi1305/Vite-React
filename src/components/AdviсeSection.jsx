@@ -6,7 +6,7 @@ export default function AdviceSection() {
     const [contentType, setContentType] = useState(null);
 
     return (
-        <section>
+        <section style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
             <h3>Эй, если ты только начал учиться программированию, то вот несколько простых советов,
                 которые помогут тебе не перегореть и получать удовольствие от этого дела.</h3>
             <Button
@@ -19,7 +19,6 @@ export default function AdviceSection() {
                 isActive={contentType === 'program'}
                 onClick={() => handleClick('program')}>Разнообразие</Button>
 
-            {!contentType && <p>Нажми на кнопку</p>}
             {contentType && <p>{differences[contentType]}</p>}
         </section>
     )

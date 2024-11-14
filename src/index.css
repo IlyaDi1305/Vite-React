@@ -7,7 +7,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Microsoft JhengHei UI Light', sans-serif;
+    color: #fdfdfd;
+    background-color: #1e1f22;
 }
 
 main {
@@ -26,7 +28,7 @@ section ul {
 }
 
 section ul li {
-    border: 1px solid #ccc;
+    border: 1px solid #393b3f;
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1rem;

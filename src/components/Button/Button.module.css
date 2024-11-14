@@ -6,6 +6,9 @@
     transition: all 0.3s;
     front-weight: bold;
     margin-right: 1rem;
+    background: #393b3f;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.3rem;
 }
 
 .button:hover {
@@ -13,6 +16,6 @@
 }
 
 .button.active {
-    background: #3e6ae1;
-    color: #fff;
+    background: #56955b;
+    color: #1e1f22;
 }
