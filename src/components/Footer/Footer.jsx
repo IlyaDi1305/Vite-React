@@ -1,6 +1,6 @@
 import {styled} from "styled-components";
 import logo from '/avatar.png'
-import AdviceSection from "../AdviсeSection.jsx";
+import AdviceSection from "../AdviсeButtonSection.jsx";
 
 const FooterContainer = styled.footer`
     height: 50px;

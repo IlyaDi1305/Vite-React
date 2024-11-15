@@ -2,7 +2,7 @@ import Button from "./Button/Button.jsx";
 import {useState} from "react";
 import {differences} from "../data.js";
 
-export default function AdviceSection() {
+export default function AdviceButtonSection() {
     const [contentType, setContentType] = useState(null);
 
     return (

@@ -5,8 +5,8 @@ export default function TabsSection({active, onChange}) {
         <section style={{marginBottom: '1rem'}}>
             <Button isActive={active === 'main'}
                     onClick={() => onChange('main')}>Главная</Button>
-            <Button isActive={active === 'feedback'}
-                    onClick={() => onChange('feedback')}>Обратная связь</Button>
+            <Button isActive={active === 'advice'}
+                    onClick={() => onChange('advice')}>Советы новичкам</Button>
         </section>
     )
 }

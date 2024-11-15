@@ -15,6 +15,10 @@
     opacity: 0.8;
 }
 
+.button:disabled {
+    cursor: not-allowed;
+}
+
 .button.active {
     background: #56955b;
     color: #1e1f22;
