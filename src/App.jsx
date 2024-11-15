@@ -1,6 +1,5 @@
 import Header from "./components/Header/Header.jsx";
 import TeachingSection from "./components/TeachingSection.jsx";
-import IntroSection from "./components/IntroSection.jsx";
 import TabsSection from "./components/TabsSection.jsx";
 import AdviceSection from "./components/AdviceSection.jsx";
 import {useState} from "react";
