@@ -9,18 +9,22 @@
 body {
     font-family: 'Microsoft JhengHei UI Light', sans-serif;
     color: #fdfdfd;
-    background-color: #1e1f22;
+    background-color: #121212;
 }
 
 main {
-    max-width: 850px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
     padding-top: 2rem;
+    padding-right: 3rem;
 }
 
-h3 {
+h1 {
     margin-bottom: 1rem;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 34px;
 }
 
 section ul {
@@ -32,12 +36,15 @@ section ul li {
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1rem;
+    font-family: PT Serif, Times, serif;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
 }
 
 .content,
-p {
-    padding: 1rem 0;
-}
 
 .centered {
     text-align: center;
