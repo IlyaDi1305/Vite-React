@@ -9,11 +9,16 @@ import Cv from "./components/CV/Cv.jsx";
 import EffectSection from "./components/EffectSection.jsx";
 
 export default function App() {
+    const [visible, setVisible] = useState(true);
     const [tab, setTab] = useState('effect')
+
+    // setTimeout(()=>{
+    //     setVisible(false);
+    // },3000)
 
     return (
         <>
-            <Header/>
+            {visible && <Header/>}
             <main>
                 <TabsSection active={tab} onChange={(current) => setTab(current)}/>
                 {tab === 'сv' && (<><Cv/></>)}
