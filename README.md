@@ -1,8 +1,17 @@
-# React + Vite
+# CryptoApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoApp is a modern web application for tracking cryptocurrencies. The project provides a user-friendly interface for monitoring current prices, market dynamics and other key data about cryptocurrencies.
 
-Currently, two official plugins are available:
+## Functionality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Price Monitoring**: Displaying current price data of popular cryptocurrencies.
+- **Graphs**: Visualise price changes with interactive graphs.
+- **Filters**: Ability to customise data display by selected parameters.
+- **Real-Time Updates**: Regularly updated information for accurate analyses.
+- **Intuitive interface**: Easy to use even for novice users.
+
+## Technologies
+
+ React, Ant Design 5.0, JavaScript, CSS, HTML
+
+Translated with DeepL.com (free version)
