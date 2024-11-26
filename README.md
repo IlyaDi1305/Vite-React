@@ -1,4 +1,4 @@
-# CryptoApp https://cryptoapp.kesug.com/
+# [CryptoApp](https://cryptoapp.kesug.com)
 
 CryptoApp is a modern web application for tracking cryptocurrencies. The project provides a user-friendly interface for monitoring current prices, market dynamics and other key data about cryptocurrencies.
 
